@@ -23,13 +23,13 @@ class _MyProfileState extends State<MyProfile> {
               height: 100,
               width: 100,
               child: CircleAvatar(
-                backgroundImage: AssetImage('assets/img/pfp.jpg'),
+                backgroundImage: AssetImage('assets/img/sample.jpg'),
               ),
             ),
             
             const SizedBox(height: 30),
             Text(
-              'Cyrine B. Malesido',
+              'Enter name here',
               style: GoogleFonts.pacifico( // Use any Google Font you prefer
                   textStyle: const TextStyle(
                   color: Colors.white,
